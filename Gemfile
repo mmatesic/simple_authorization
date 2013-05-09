@@ -6,6 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'bcrypt-ruby'
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
@@ -13,6 +14,10 @@ group :development, :test do
   gem 'rb-readline'
   gem 'guard-spork'
   gem 'spork'
+end
+
+group :development do
+  gem 'annotate'
 end
 
 
